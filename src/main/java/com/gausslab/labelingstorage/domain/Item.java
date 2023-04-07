@@ -18,6 +18,7 @@ public class Item {
     private String useDepartment;
     private String manager;
     private String image;
+    private String qrUrl;
 
     public Item(String assetNumber, String startDate, String checkDate, String useDepartment, String manager, String image){
         this.assetNumber = assetNumber;
